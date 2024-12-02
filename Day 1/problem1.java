@@ -11,9 +11,12 @@ public class problem1 {
         ArrayList<Integer> a = new ArrayList<>();
         ArrayList<Integer> b = new ArrayList<>();
         int count = 0;
-
+        String filepath = "C:\\Users\\Admin\\Desktop\\oskarhessler\\adventofcode\\Day 2\\infile2.txt";
+        //String filepath2 = "C:\\Users\\alvah\\OneDrive\\Skrivbord\\Advent of Code\\Day 1\\infile.txt";
         // Open the input file
-        Scanner scan = new Scanner(new File("C:\\Users\\alvah\\OneDrive\\Skrivbord\\Advent of Code\\Day 1\\infile.txt"));
+        Scanner scan = new Scanner(new File(filepath));
+        // Open the input file
+
         
         while (scan.hasNextInt()) {
             a.add(scan.nextInt()); // First number goes to list A
