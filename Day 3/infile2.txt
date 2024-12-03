@@ -1,0 +1,1 @@
+mul(3,8)do()asdmul(3,9)3don't()apamul(1,2)do()mul(1,1)
